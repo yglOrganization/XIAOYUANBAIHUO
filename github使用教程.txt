@@ -1,0 +1,47 @@
+
+//第一次创建本地版本库,
+第一步，先在网站上新建一个版本库，比如名字为myhub
+然后再打开本地的gitshell，此时路径默认在github文件夹内
+创建一个文件夹，名字为网站上的那个名字myhub。
+如下命令后，会提示输入用户名和密码，成功后就完成版本库的建立了。
+mkdir myhub
+cd myhub
+git init  //初始化git版本库环境
+git remote add origin https://github.com/yaoguoliang2013/huanniang.git //连接网站上的那个版本库 
+git add .  //添加本地版本库中的所有文件，第一次必须添加东西上去作为基础库内容
+git commit -m "first commit" //提交文件，并且添加此次修改版本库的说明
+git push -u origin master //把提交内容推上网站上的主分支
+
+//假如网站上的版本库已存在，其他人要在本地创建一个相应的版本时
+mkdir myhub
+cd myhub
+git init
+git remote add origin https://github.com/yaoguoliang2013/huanniang.git
+git pull origin master  //把主分支的内容拉下来到本地
+
+
+//以后在进行项目开发之前先把最新的东西拉下来
+cd myhub
+git pull origin master
+
+//以后使用本地版本库更新东西
+cd myhub
+git add .
+git commit -m "first commit"
+git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+Push an existing repository from the command line
+
+git remote add origin https://github.com/yaoguoliang2013/huanniang.git
+git push -u origin master
