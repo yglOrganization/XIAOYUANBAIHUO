@@ -13,17 +13,13 @@ git commit -m "first commit" //提交文件，并且添加此次修改版本库的说明
 git push -u origin master //把提交内容推上网站上的主分支
 
 //假如网站上的版本库已存在，其他人要在本地创建一个相应的版本时
-mkdir myhub
-cd myhub
-git init
-git remote add origin https://github.com/yaoguoliang2013/huanniang.git
-git pull origin master  //把主分支的内容拉下来到本地
+git clone https://github.com/yaoguoliang2013/huanniang.git//该命令会直接克隆一份下来，自动生成一个版本库文件夹
+
 
 
 //以后在进行项目开发之前先把最新的东西拉下来
 cd myhub
-git pull origin master
-
+git pull origin master//注意，这个命令会把网上的最新版本中的新版本部分拉下来，进行合并，未被修改过的文件是不会拉下来的。
 
 //以后使用本地版本库更新东西
 cd myhub
@@ -31,6 +27,16 @@ git add .
 git commit -m "first commit"
 git push -u origin master
 
+
+
+下面是旧的方法，仅作日后学习参考，请不要使用
+////////////////////////////////////////////////////////////////
+//假如网站上的版本库已存在，其他人要在本地创建一个相应的版本时
+mkdir myhub
+cd myhub
+git init
+git remote add origin https://github.com/yaoguoliang2013/huanniang.git
+git pull origin master  //把主分支的内容拉下来到本地
 
 
 
