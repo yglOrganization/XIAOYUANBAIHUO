@@ -21,6 +21,7 @@ git clone https://github.com/yaoguoliang2013/huanniang.git//该命令会直接克隆一份
 
 
 
+
 //以后在进行项目开发之前先把最新的东西拉下来
 cd myhub
 git pull origin master//注意，这个命令会把网上的最新版本中的新版本部分拉下来，进行合并，未被修改过的文件是不会拉下来的。
