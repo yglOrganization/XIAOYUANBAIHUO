@@ -24,6 +24,7 @@ git pull origin master  //把主分支的内容拉下来到本地
 cd myhub
 git pull origin master
 
+
 //以后使用本地版本库更新东西
 cd myhub
 git add .
