@@ -1,57 +1,11 @@
-
-//µÚÒ»´ÎÊ¹ÓÃgitshell
-git config --global user.name "huanniang"
-git config --global user.email "xxx@gmail.com"
-
-//µÚÒ»´Î´´½¨±¾µØ°æ±¾¿â,
-µÚÒ»²½£¬ÏÈÔÚÍøÕ¾ÉÏĞÂ½¨Ò»¸ö°æ±¾¿â£¬±ÈÈçÃû×ÖÎªmyhub
-È»ºóÔÙ´ò¿ª±¾µØµÄgitshell£¬´ËÊ±Â·¾¶Ä¬ÈÏÔÚgithubÎÄ¼ş¼ĞÄÚ
-´´½¨Ò»¸öÎÄ¼ş¼Ğ£¬Ãû×ÖÎªÍøÕ¾ÉÏµÄÄÇ¸öÃû×Ömyhub¡£
-ÈçÏÂÃüÁîºó£¬»áÌáÊ¾ÊäÈëÓÃ»§ÃûºÍÃÜÂë£¬³É¹¦ºó¾ÍÍê³É°æ±¾¿âµÄ½¨Á¢ÁË¡£
-mkdir myhub
-cd myhub
-git init  //³õÊ¼»¯git°æ±¾¿â»·¾³
-git remote add origin https://github.com/yaoguoliang2013/huanniang.git //Á¬½ÓÍøÕ¾ÉÏµÄÄÇ¸ö°æ±¾¿â 
-git add .  //Ìí¼Ó±¾µØ°æ±¾¿âÖĞµÄËùÓĞÎÄ¼ş£¬µÚÒ»´Î±ØĞëÌí¼Ó¶«Î÷ÉÏÈ¥×÷Îª»ù´¡¿âÄÚÈİ
-git commit -m "first commit" //Ìá½»ÎÄ¼ş£¬²¢ÇÒÌí¼Ó´Ë´ÎĞŞ¸Ä°æ±¾¿âµÄËµÃ÷
-git push -u origin master //°ÑÌá½»ÄÚÈİÍÆÉÏÍøÕ¾ÉÏµÄÖ÷·ÖÖ§
-
-//¼ÙÈçÍøÕ¾ÉÏµÄ°æ±¾¿âÒÑ´æÔÚ£¬ÆäËûÈËÒªÔÚ±¾µØ´´½¨Ò»¸öÏàÓ¦µÄ°æ±¾Ê±
-git clone https://github.com/yaoguoliang2013/huanniang.git//¸ÃÃüÁî»áÖ±½Ó¿ËÂ¡Ò»·İÏÂÀ´£¬×Ô¶¯Éú³ÉÒ»¸ö°æ±¾¿âÎÄ¼ş¼Ğ
-
-
-
-
-//ÒÔºóÔÚ½øĞĞÏîÄ¿¿ª·¢Ö®Ç°ÏÈ°Ñ×îĞÂµÄ¶«Î÷À­ÏÂÀ´
-cd myhub
-git pull origin master//×¢Òâ£¬Õâ¸öÃüÁî»á°ÑÍøÉÏµÄ×îĞÂ°æ±¾ÖĞµÄĞÂ°æ±¾²¿·ÖÀ­ÏÂÀ´£¬½øĞĞºÏ²¢£¬Î´±»ĞŞ¸Ä¹ıµÄÎÄ¼şÊÇ²»»áÀ­ÏÂÀ´µÄ¡£
-
-//ÒÔºóÊ¹ÓÃ±¾µØ°æ±¾¿â¸üĞÂ¶«Î÷
-cd myhub
-git add .
-git commit -m "first commit"
-git push -u origin master
-
-
-
-ÏÂÃæÊÇ¾ÉµÄ·½·¨£¬½ö×÷ÈÕºóÑ§Ï°²Î¿¼£¬Çë²»ÒªÊ¹ÓÃ
-////////////////////////////////////////////////////////////////
-//¼ÙÈçÍøÕ¾ÉÏµÄ°æ±¾¿âÒÑ´æÔÚ£¬ÆäËûÈËÒªÔÚ±¾µØ´´½¨Ò»¸öÏàÓ¦µÄ°æ±¾Ê±
-mkdir myhub
-cd myhub
-git init
-git remote add origin https://github.com/yaoguoliang2013/huanniang.git
-git pull origin master  //°ÑÖ÷·ÖÖ§µÄÄÚÈİÀ­ÏÂÀ´µ½±¾µØ
-
-
-
-
-
-
-
-
-
-Push an existing repository from the command line
-
-git remote add origin https://github.com/yaoguoliang2013/huanniang.git
-git push -u origin master
+  å…ˆæ‰“å¼€cmdï¼Œç„¶åè½¬åˆ°æŸä¸ªç›®å½•ä¸‹,å¦‚:
+ cd D:\git
+ ç„¶åå…‹éš†ç‰ˆæœ¬åº“:
+ git clone https://github.com/yglOrganization/XIAOYUANBAIHUO.git 
+ 
+æ·»åŠ ä¸€ä¸ªæ–°æ–‡ä»¶å¹¶æäº¤åˆ°ç‰ˆæœ¬åº“
+$ git add README.md
+$ git commit -m "README for this project."
+$ git push -u origin master
+ 
+ 
