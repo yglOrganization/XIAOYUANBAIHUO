@@ -1,0 +1,258 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../信息统计_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:11px;
+    top:12px;
+    width:953px;
+    height:789px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:953px;
+    height:789px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:386px;
+    width:949px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2 {
+    position:absolute;
+    left:416px;
+    top:142px;
+    width:92px;
+    height:37px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 16px;
+    color:#CC0033;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u2_text_sketch {
+    font-family: '应用字体';
+}
+
+.u3 {
+    position:absolute;
+    left:531px;
+    top:142px;
+    width:92px;
+    height:37px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 16px;
+    color:#CC0033;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u3_text_sketch {
+    font-family: '应用字体';
+}
+
+.u4 {
+    position:absolute;
+    left:633px;
+    top:142px;
+    width:92px;
+    height:37px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 16px;
+    color:#CC0033;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u4_text_sketch {
+    font-family: '应用字体';
+}
+
+.u5 {
+    position:absolute;
+    left:872px;
+    top:142px;
+    width:92px;
+    height:37px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 20px;
+    color:#CC0033;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u5_text_sketch {
+    font-family: '应用字体';
+}
+
+.u6 {
+    position:absolute;
+    left:751px;
+    top:142px;
+    width:92px;
+    height:37px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 16px;
+    color:#CC0033;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u6_text_sketch {
+    font-family: '应用字体';
+}
+
+.u7_normal {
+    background-image: url('../信息统计_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:64px;
+    top:217px;
+    width:922px;
+    height:569px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:928px;
+    height:575px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:276px;
+    width:918px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9 {
+    position:absolute;
+    left:127px;
+    top:251px;
+    width:150px;
+    height:128px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10 {
+    position:absolute;
+    left:254px;
+    top:90px;
+    width:191px;
+    height:33px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11 {
+    position:absolute;
+    left:776px;
+    top:98px;
+    width:91px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12 {
+    position:absolute;
+    left:887px;
+    top:98px;
+    width:108px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
