@@ -1,0 +1,450 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../后台管理页面_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:0px;
+    top:-8px;
+    width:953px;
+    height:743px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:953px;
+    height:743px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:364px;
+    width:949px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2 {
+    position:absolute;
+    left:245px;
+    top:78px;
+    width:191px;
+    height:33px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3 {
+    position:absolute;
+    left:209px;
+    top:317px;
+    width:66px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4 {
+    position:absolute;
+    left:209px;
+    top:374px;
+    width:102px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5 {
+    position:absolute;
+    left:301px;
+    top:365px;
+    width:180px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u5_text_sketch {
+    font-family: '应用字体';
+}
+
+.u6 {
+    position:absolute;
+    left:301px;
+    top:308px;
+    width:180px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u6_text_sketch {
+    font-family: '应用字体';
+}
+
+.u7_mouseOver {
+    background-image: url('../后台管理页面_files/Button_u7_mouseOver.png');
+}
+
+.u7_normal {
+    background-image: url('../后台管理页面_files/Button_u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:211px;
+    top:559px;
+    width:100px;
+    height:40px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../后台管理页面_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:293px;
+    top:413px;
+    width:250px;
+    height:112px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:256px;
+    height:118px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:48px;
+    width:246px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../后台管理页面_files/u11_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:297px;
+    top:417px;
+    width:242px;
+    height:48px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:248px;
+    height:54px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:238px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../后台管理页面_files/u13_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:297px;
+    top:471px;
+    width:154px;
+    height:50px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:160px;
+    height:56px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15 {
+    position:absolute;
+    left:310px;
+    top:493px;
+    width:128px;
+    height:22px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u15_text_sketch {
+    font-family: '应用字体';
+}
+
+.u16 {
+    position:absolute;
+    left:300px;
+    top:476px;
+    width:149px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u17 {
+    position:absolute;
+    left:303px;
+    top:415px;
+    width:231px;
+    height:51px;
+    overflow:hidden;
+}
+
+#pd2u17 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:231px;
+    height:51px;
+    
+}
+
+.u18 {
+    position:absolute;
+    left:0px;
+    top:-3px;
+    width:230px;
+    height:50px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd1u17 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:231px;
+    height:51px;
+    
+}
+
+.u19 {
+    position:absolute;
+    left:10px;
+    top:6px;
+    width:210px;
+    height:41px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u17 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:231px;
+    height:51px;
+    
+}
+
+.u20 {
+    position:absolute;
+    left:22px;
+    top:4px;
+    width:180px;
+    height:43px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_mouseOver {
+    background-image: url('../后台管理页面_files/u21_mouseOver.png');
+}
+
+.u21_normal {
+    background-image: url('../后台管理页面_files/u21_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:459px;
+    top:488px;
+    width:74px;
+    height:32px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:80px;
+    height:38px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:70px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23 {
+    position:absolute;
+    left:209px;
+    top:432px;
+    width:102px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
